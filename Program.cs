@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,7 +26,7 @@ namespace TicketingSystem
                         while(!sr.EndOfStream){
                             Console.WriteLine(sr.ReadLine());
                         }
-                    }~
+                    }
                     else{
                         Console.WriteLine("File does not exist");
                     }
